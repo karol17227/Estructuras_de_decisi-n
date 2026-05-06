@@ -1,0 +1,21 @@
+Algoritmo Calificacion
+	Definir nota Como Real
+	
+	Escribir "Ingrese su nota definitiva"
+	Leer nota
+	
+	Escribir "Su nota es"
+	Si nota < 3 Entonces
+		Escribir "Insuficiente"
+	SiNo
+		Si nota <= 3.5 Entonces
+			Escribir "Aceptable"
+		SiNo
+			Si nota <= 4 Entonces
+				Escribir "Sobresaliente"
+			SiNo
+				Escribir "Excelente"
+			Fin Si
+		Fin Si
+	Fin Si
+FinAlgoritmo
