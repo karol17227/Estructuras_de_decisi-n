@@ -1,0 +1,18 @@
+Algoritmo SistemaOperativo
+	Definir x Como Caracter
+	
+	Escribir "Ingrese un carácter"
+	Leer x
+	
+	Segun x
+		caso 'a' O 'A':
+			Escribir "Android"
+			
+		caso 'i' O 'I':
+			Escribir "iOS"
+			
+		De Otro Modo:
+			Escribir "Inválida"
+	FinSegun
+	
+FinAlgoritmo
