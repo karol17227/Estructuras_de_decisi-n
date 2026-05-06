@@ -1,0 +1,13 @@
+Algoritmo Rango
+	Definir x Como Real
+	
+	Escribir "Ingrese un número"
+	Leer x
+	
+	Si x > 3.5 Y x <= 7.8 Entonces
+		Escribir "Está en el rango"
+	SiNo
+		Escribir "No está en el rango"
+	Fin Si
+	
+FinAlgoritmo
