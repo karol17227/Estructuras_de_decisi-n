@@ -1,0 +1,31 @@
+Algoritmo Mayor_número_entre_4
+	Definir n1, n2, n3, n4 Como Real
+	
+	Escribir "Ingrese su primer número"
+	Leer n1
+	
+	Escribir "Ingrese su segundo número"
+	Leer n2
+	
+	Escribir "Ingrese su tercer número"
+	Leer n3
+	
+	Escribir "Ingrese su cuarto número"
+	Leer n4
+	
+	Si n1 > n2 Y n1 > n3 Y n1 > n4 Entonces
+		Escribir "Su número mayor es", n1 
+	SiNo
+		Si n2 > n1 Y n2 > n3 Y n2 > n4 Entonces
+			Escribir "Su número mayor es:", n2 
+		SiNo
+			Si n3 > n1 Y n3 > n2 Y n3 > n4 Entonces
+				Escribir "Su número mayor es:", n3
+			SiNo
+				Si n4 > n1 Y n4 > n2 Y n4 > n3 Entonces
+					Escribir "Su número mayor es:", n4
+				Fin Si
+			Fin Si
+		Fin Si
+	Fin Si
+FinAlgoritmo
