@@ -1,0 +1,14 @@
+Algoritmo tanque_agua
+	
+	Definir litros Como Real
+	
+	Escribir "Ingrese los litros actuales del tanque:"
+	Leer litros
+	
+	Si litros >= 250 Y litros <= 450 Entonces
+		Escribir "Cerrar la llave"
+	SiNo
+		Escribir "Abrir la llave"
+	FinSi
+	
+FinAlgoritmo
