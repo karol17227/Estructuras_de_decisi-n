@@ -1,0 +1,40 @@
+Algoritmo AspiranteEjercito
+	
+	Definir genero, estadoCivil, salida Como Cadena
+	Definir estatura Como Real
+	Definir edad Como Entero
+	
+	Escribir "Género del aspirante (M/F):"
+	Leer genero
+	
+	Escribir "Estado civil del aspirante (S/C/V/D/U):"
+	Leer estadoCivil
+	
+	Escribir "Estatura del aspirante:"
+	Leer estatura
+	
+	Escribir "Edad del aspirante:"
+	Leer edad
+	
+	Si estadoCivil == "S" O estadoCivil == "s" Entonces
+		Segun genero Hacer
+			caso "f" o "F":
+				Si estatura > 1.60 Y edad >= 25 Entonces
+					Escribir "si es apto"
+				SiNo
+					Escribir "No es Apto"
+				Fin Si
+			caso 'm' o 'M':
+				Si estatura > 1.65 Y edad >= 18 Y edad <= 14 Entonces
+					Escribir "Es apto"
+				SiNo
+					Escribir "No es Apto"
+				Fin Si
+			De Otro Modo:
+				Escribir ""
+		Fin Segun
+	SiNo
+		Escribir "No es Apto"
+	Fin Si
+	
+FinAlgoritmo
