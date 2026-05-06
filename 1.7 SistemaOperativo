@@ -1,0 +1,18 @@
+Algoritmo SistemaOperativo
+	Definir x Como Caracter
+	
+	Escribir "Ingrese un carácter"
+	Leer x
+	
+	Escribir "Su opción es"
+	Si x == 'a' O x == 'A' Entonces
+		Escribir "Android"
+	SiNo
+		Si x == 'i' O x == 'I'  Entonces
+			Escribir "iOS"
+		SiNo
+			Escribir "Inválida"
+		Fin Si
+	Fin Si
+	
+FinAlgoritmo
