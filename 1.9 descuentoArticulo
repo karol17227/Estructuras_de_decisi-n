@@ -1,0 +1,27 @@
+Algoritmo descuentoArticulo
+	
+	Definir tipo Como Caracter
+	Definir val , descuento , procentaje Como Real
+	
+	Escribir "Ingrese el valor del artículo"
+	Leer val
+	
+	Escribir "Ingrese el tipo de artículo"
+	Leer tipo
+	
+	Segun tipo Hacer
+		caso '1':
+			porcentaje = 0.125 //12.5%
+		Caso '2':
+			porcentaje = 0.083 //8.3%
+		Caso '3':
+			porcentaje = 0.032 // 3.2%
+		De Otro Modo:
+			porcentaje = 0 // 0%
+	Fin Segun
+	
+	descuento = val * porcentaje
+	
+	Escribir "El valor de descuento es:" , descuento
+	
+FinAlgoritmo
