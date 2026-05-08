@@ -1,0 +1,22 @@
+Algoritmo ecuacion_cuadratica
+	
+	Definir a, b, c, raz Como Real
+	
+	Escribir "Ingrese el valor de a:"
+	Leer a
+	
+	Escribir "Ingrese el valor de b:"
+	Leer b
+	
+	Escribir "Ingrese el valor de c:"
+	Leer c
+	
+	raz = b^2 - 4*a*c
+	
+	Si a <> 0 Y raz >= 0 Entonces
+		Escribir "La ecuación SÍ tiene solución"
+	SiNo
+		Escribir "La ecuación NO tiene solución"
+	FinSi
+	
+FinAlgoritmo

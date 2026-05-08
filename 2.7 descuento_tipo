@@ -1,0 +1,33 @@
+Algoritmo descuento_tipo
+	
+	Definir tipo Como Entero
+	Definir costo, descuento Como Real
+	
+	Escribir "Ingrese el costo del artículo:"
+	Leer costo
+	
+	Escribir "Ingrese el tipo de artículo:"
+	Escribir "Textil = 1"
+	Escribir "Electrodoméstico = 2"
+	Escribir "Elementos de cocina = 3"
+	Escribir "Video juego = 4"
+	Leer tipo
+	
+	Segun tipo Hacer
+		Caso 1:
+			descuento <- costo * 0
+			Escribir "Descuento (0%): ", descuento
+		Caso 2:
+			descuento <- costo * 0.037
+			Escribir "Descuento (3.7%): ", descuento
+		Caso 3:
+			descuento <- costo * 0.042
+			Escribir "Descuento (4.2%): ", descuento
+		Caso 4:
+			descuento <- costo * 0.078
+			Escribir "Descuento (7.8%): ", descuento
+		De Otro Modo:
+			Escribir "Tipo de artículo no válido"
+	FinSegun
+	
+FinAlgoritmo

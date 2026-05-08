@@ -1,0 +1,20 @@
+Algoritmo intervalo_cerrado
+	
+	Definir x, min, max Como Entero
+	
+	Escribir "Ingrese el número x:"
+	Leer x
+	
+	Escribir "Ingrese el valor mínimo del intervalo:"
+	Leer min
+	
+	Escribir "Ingrese el valor máximo del intervalo:"
+	Leer max
+	
+	Si x >= min Y x <= max Entonces
+		Escribir x, " está DENTRO del intervalo"
+	SiNo
+		Escribir x, " está FUERA del intervalo"
+	FinSi
+	
+FinAlgoritmo
